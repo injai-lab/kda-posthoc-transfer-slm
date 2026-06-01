@@ -1,0 +1,19 @@
+script: "llama32_kda_train_stageA_3to1_ce_epoch1.py"
+model_id: "meta-llama/Llama-3.2-1B"
+model_revision: ""
+init_from_local_dir: ""
+output_dir_original: "/root/kda_project/Kimi_Project/llama32_kda_samecorpus_s1_4k_3to1_ce_epoch1"
+cache_dir_original: "/root/kda_project/huggingface_cache"
+run_name: "llama32_kda_3to1_ce_epoch1"
+max_seq_length: 4096
+batch_size: 1
+gradient_accumulation: 4
+num_epochs: 2
+max_steps: 42521
+train_mode: "full_kda"
+use_logit_kd: ""
+teacher_model_id: ""
+replacement_ratio_hint: "3:1 or script-defined"
+prefer_local_prepared_data: true
+require_local_prepared_data: true
+prepared_data_dir_original: "/data/pepe_files/kda_project/Kimi_Project/prepared_data"

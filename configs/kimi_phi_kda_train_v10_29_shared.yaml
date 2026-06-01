@@ -1,0 +1,19 @@
+script: "kimi_phi_kda_train_v10_29_shared.py"
+model_id: "microsoft/Phi-tiny-MoE-instruct"
+model_revision: "2fe50e88d0e2a5a132563815686ea0dcc8e252b5"
+init_from_local_dir: ""
+output_dir_original: "/root/kda_project/Kimi_Project/checkpoints_stage1"
+cache_dir_original: "/root/kda_project/huggingface_cache"
+run_name: ""
+max_seq_length: 4096
+batch_size: 4
+gradient_accumulation: 8
+num_epochs: 2
+max_steps: 0
+train_mode: "g_only"
+use_logit_kd: ""
+teacher_model_id: ""
+replacement_ratio_hint: "3:1 or script-defined"
+prefer_local_prepared_data: true
+require_local_prepared_data: true
+prepared_data_dir_original: "/data/pepe_files/kda_project/Kimi_Project/prepared_data"
