@@ -1,0 +1,12 @@
+Backbone,Branch,Start eval,Final,Drop (%),Generation
+Phi-tiny-MoE-instruct,Original(pre-trained),N/A,1.259,N/A,intact
+Phi-tiny-MoE-instruct,3:1 KDA main long run,4.56,4.25,6.8,collapsed
+Phi-tiny-MoE-instruct,3:1 KDA high-LR,4.16,3.8,8.65,collapsed
+Phi-tiny-MoE-instruct,3:1 KDA resumed high-LR,3.74,3.56,4.81,collapsed
+Qwen3-1.7B-Base,no-KDA control(300step),1.0417,0.8603,17.41,intact
+Qwen3-1.7B-Base,3:1 KDA CE-only(1000step),13.6741,8.5635,37.37,collapsed
+Qwen3-1.7B-Base,3:1 KDA CE+KD(epoch),17.4991,15.8189,9.6,collapsed
+Qwen3-1.7B-Base,1:1 KDA CE+KD(epoch),16.6836,15.7344,5.69,collapsed
+Llama-3.2-1B,no-KDA control(300step),1.5576,1.2157,21.95,non-collapse
+Llama-3.2-1B,3:1 KDA CE-only(100step),10.708,9.5626,10.7,degraded
+Llama-3.2-1B,3:1 KDA CE-only(epoch),4.9751,4.1507,16.57,collapsed

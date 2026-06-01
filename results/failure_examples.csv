@@ -1,0 +1,11 @@
+Failure Type,Model / Branch,Prompt,Output (truncated)
+intact,Llama control(step-300),Hello my name is,Kelsey and I am a 2018 graduate of the University of Wisconsin-Madison...
+intact,Llama control(step-300),3+5=,"8, 4+6=10, 5+7=11, 6+8=12"
+intact,Llama control(step-300),I am an AI,"researcher at the University of Oxford. I am interested in the intersection of AI..."
+repetition,Llama 3:1 KDA(step-50),I am an AI,"and 1, 1, the following the following the following..."
+repetition,Llama 3:1 KDA(step-50),3+5=,"atron 1."
+collapsed,Qwen 3:1 KD(step-300),자기소개 해줘,"チン又ça莪番lestONGL aster..."
+collapsed,Qwen 3:1 KD(step-200),3+5는 얼마야?,"蜈άitos. feam..."
+nonsense,Llama 3:1 KDA(epoch-1 ckpt-42521),Hello my name is,"пут."
+nonsense,Qwen 1:1 KD(epoch-1 ckpt-42521),자기소개 해줘,"sule{ uref4Table-ibionsâentinnō率..."
+nonsense,Llama 3:1 KDA(epoch-1 ckpt-40000),3+5=,"ney, the most of the most impalum, the 11s, the 11s..."
