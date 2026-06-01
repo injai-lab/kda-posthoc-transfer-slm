@@ -1,0 +1,15 @@
+torch
+transformers
+datasets
+accelerate
+numpy
+einops
+safetensors
+tqdm
+pyyaml
+sentencepiece
+protobuf
+triton
+flash-attn
+flash-linear-attention
+huggingface_hub

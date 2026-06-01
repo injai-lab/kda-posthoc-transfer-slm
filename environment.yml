@@ -1,0 +1,25 @@
+name: kda-paper
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - pytorch-cuda=12.1
+  - numpy
+  - pip:
+      - transformers
+      - datasets
+      - accelerate
+      - einops
+      - safetensors
+      - tqdm
+      - pyyaml
+      - sentencepiece
+      - protobuf
+      - triton
+      - flash-attn
+      - flash-linear-attention
+      - huggingface_hub

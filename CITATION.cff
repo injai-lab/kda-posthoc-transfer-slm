@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or paper, please cite it."
+title: "A Study on the Optimization-Generation Gap in Linear Attention Substitution of SLMs: Focusing on Kimi Delta Attention Post-hoc Transfer"
+authors:
+  - family-names: Hwang
+    given-names: In-Jae
+  - family-names: Jeong
+    given-names: Won
+  - family-names: Lee
+    given-names: Jae-Hee
+year: 2026
+repository-code: "https://github.com/<your-github-id>/<your-repo-name>"
+keywords:
+  - Kimi Delta Attention
+  - Linear Attention
+  - Small Language Models
+  - Post-hoc Transfer
+  - Autoregressive Generation
+  - Optimization-Generation Gap
