@@ -133,3 +133,6 @@ bash scripts/infer_kda.sh /path/to/model_dir "Hello my name is"
 ## Citation
 
 See `CITATION.cff`.
+
+#Contributor
+WonJeong0913
